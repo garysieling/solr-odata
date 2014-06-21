@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/cxf-api-2.7.5.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/cxf-rt-bindings-xml-2.7.5.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/cxf-rt-core-2.7.5.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/cxf-rt-frontend-jaxrs-2.7.5.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/cxf-rt-transports-http-2.7.5.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/javax.ws.rs-api-2.0-m10.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/jaxb-impl-2.1.13.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/olingo-odata2-api-incubating-1.0.0.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/olingo-odata2-core-incubating-1.0.0.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/olingo.odata2.sample.cars.service-1.0.0.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/slf4j-api-1.7.1.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/slf4j-log4j12-1.7.1.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/stax2-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/woodstox-core-asl-4.2.0.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/wsdl4j-1.6.3.jar"/>
+	<classpathentry kind="lib" path="target/olingo.odata2.sample.cars.web/WEB-INF/lib/xmlschema-core-2.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
