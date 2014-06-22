@@ -73,6 +73,7 @@ public class MyEdmProvider extends EdmProvider {
     List<EntityType> entityTypes = new ArrayList<EntityType>();
     entityTypes.add(getEntityType(ENTITY_TYPE_1_1));
     entityTypes.add(getEntityType(ENTITY_TYPE_1_2));
+    entityTypes.addAll(DB.getTypes());
     schema.setEntityTypes(entityTypes);
 
     List<ComplexType> complexTypes = new ArrayList<ComplexType>();
@@ -90,6 +91,7 @@ public class MyEdmProvider extends EdmProvider {
     List<EntitySet> entitySets = new ArrayList<EntitySet>();
     entitySets.add(getEntitySet(ENTITY_CONTAINER, ENTITY_SET_NAME_CARS));
     entitySets.add(getEntitySet(ENTITY_CONTAINER, ENTITY_SET_NAME_MANUFACTURERS));
+    entitySets.addAll(DB.getEntitySets());
     entityContainer.setEntitySets(entitySets);
 
     List<AssociationSet> associationSets = new ArrayList<AssociationSet>();
@@ -135,12 +137,12 @@ public class MyEdmProvider extends EdmProvider {
                 new CustomizableFeedMappings().setFcTargetPath(EdmTargetPath.SYNDICATION_UPDATED)));
         properties.add(new SimpleProperty().setName("ImagePath").setType(EdmSimpleTypeKind.String));
         */
-        try {
+    /*    try {
 			properties.addAll(Solr.getProperties());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}  */
 
         // Navigation Properties
   /*      List<NavigationProperty> navigationProperties = new ArrayList<NavigationProperty>();
@@ -190,6 +192,9 @@ public class MyEdmProvider extends EdmProvider {
 
       }
     }
+    else {
+        return DB.getEntity(edmFQName.getName());
+    }
 
     return null;
   }
@@ -231,7 +236,10 @@ public class MyEdmProvider extends EdmProvider {
         return new EntitySet().setName(name).setEntityType(ENTITY_TYPE_1_1);
       } else if (ENTITY_SET_NAME_MANUFACTURERS.equals(name)) {
         return new EntitySet().setName(name).setEntityType(ENTITY_TYPE_1_2);
+      } else {
+          return DB.getEntitySets(name);
       }
+
     }
     return null;
   }

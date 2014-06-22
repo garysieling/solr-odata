@@ -9,6 +9,8 @@
     
   <packaging>pom</packaging>
 
+
+
   <modules>
     <module>cars-service</module>
     <module>cars-web</module>
@@ -26,7 +28,6 @@
     <defaultGoal>install</defaultGoal>
     <pluginManagement>
       <plugins>
-
         <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
           <artifactId>tomcat6-maven-plugin</artifactId>
