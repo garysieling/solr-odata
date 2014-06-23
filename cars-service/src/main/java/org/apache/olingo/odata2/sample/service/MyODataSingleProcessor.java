@@ -40,14 +40,19 @@ public class MyODataSingleProcessor extends ODataSingleProcessor {
 	
 	    if (uriInfo.getNavigationSegments().size() == 0) {
 	      entitySet = uriInfo.getStartEntitySet();
-	
+
 	      if (ENTITY_SET_NAME_STATES.equals(entitySet.getName())) {
 	        return EntityProvider.writeFeed(contentType, entitySet, dataStore.all(), EntityProviderWriteProperties.serviceRoot(getContext().getPathInfo().getServiceRoot()).build());
 	      } else if (ENTITY_SET_NAME_COUNTRIES.equals(entitySet.getName())) {
 	        return EntityProvider.writeFeed(contentType, entitySet, dataStore.getManufacturers(), EntityProviderWriteProperties.serviceRoot(getContext().getPathInfo().getServiceRoot()).build());
-	      }
+	      } else {
+              return EntityProvider.writeFeed(contentType,
+                      entitySet,
+                      DB.all(entitySet.getName()),
+                      EntityProviderWriteProperties.serviceRoot(getContext().getPathInfo().getServiceRoot()).build());
+          }
 	
-	      throw new ODataNotFoundException(ODataNotFoundException.ENTITY);
+	      //throw new ODataNotFoundException(ODataNotFoundException.ENTITY);
 	
 	    } else if (uriInfo.getNavigationSegments().size() == 1) {
 	      //navigation first level, simplified example for illustration purposes only
@@ -60,9 +65,18 @@ public class MyODataSingleProcessor extends ODataSingleProcessor {
 	        cars.addAll(dataStore.getCarsFor(manufacturerKey));
 	
 	        return EntityProvider.writeFeed(contentType, entitySet, cars, EntityProviderWriteProperties.serviceRoot(getContext().getPathInfo().getServiceRoot()).build());
-	      }
-	
-	      throw new ODataNotFoundException(ODataNotFoundException.ENTITY);
+	      } else {
+              // TODO: fix possible SQL injection bug
+
+              // TODO: figure out how to make other types of filters
+
+              // TODO: figure out how to return counts
+              return EntityProvider.writeFeed(contentType,
+                      entitySet,
+                      DB.all(entitySet.getName(),
+                             uriInfo.getKeyPredicates().get(0)),
+                      EntityProviderWriteProperties.serviceRoot(getContext().getPathInfo().getServiceRoot()).build());
+          }
 	    }
 	
 	    throw new ODataNotImplementedException();

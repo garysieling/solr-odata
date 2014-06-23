@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67377946-fe40-4f8f-9f73-acc1ef13d1cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_1_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_m10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_api_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_core_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_olingo_olingo_odata2_api_incubating_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_olingo_olingo_odata2_core_incubating_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_3_1101_jdbc41.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-service/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DataStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyServiceFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-service/src/main/resources/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-web/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/cars-web/src/main/webapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.pom.xml.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java" afterPath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java" afterPath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/olingo.odata2.sample.cars.parent.iml" afterPath="$PROJECT_DIR$/olingo.odata2.sample.cars.parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars-service/olingo.odata2.sample.cars.service (1).iml" afterPath="$PROJECT_DIR$/cars-service/olingo.odata2.sample.cars.service (1).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/cars-service/olingo.odata2.sample.cars.service (2).iml" afterPath="$PROJECT_DIR$/server/cars-service/olingo.odata2.sample.cars.service (2).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars-web/olingo.odata2.sample.cars.web (1).iml" afterPath="$PROJECT_DIR$/cars-web/olingo.odata2.sample.cars.web (1).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/olingo.odata2.sample.cars.web/META-INF/maven/org.apache.olingo/olingo.odata2.sample.cars.web/olingo.odata2.sample.cars.web (2).iml" afterPath="$PROJECT_DIR$/olingo.odata2.sample.cars.web/META-INF/maven/org.apache.olingo/olingo.odata2.sample.cars.web/olingo.odata2.sample.cars.web (2).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/cars-web/olingo.odata2.sample.cars.web (3).iml" afterPath="$PROJECT_DIR$/server/cars-web/olingo.odata2.sample.cars.web (3).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars-service/pom.xml" afterPath="$PROJECT_DIR$/cars-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java" afterPath="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java" />
     </list>
     <ignored path="solr-odata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,31 +71,30 @@
       <file leaf-file-name="MyEdmProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1923075" vertical-offset="1286" max-vertical-offset="7200">
-              <caret line="124" column="48" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyServiceFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyServiceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1923075" vertical-offset="251" max-vertical-offset="645">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="7" />
+            <state vertical-scroll-proportion="-3.0" vertical-offset="1377" max-vertical-offset="4290">
+              <caret line="97" column="38" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="38" />
               <folding>
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solr.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/Solr.java">
+      <file leaf-file-name="DataStore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DataStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33223686" vertical-offset="139" max-vertical-offset="2235">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="23" />
+            <state vertical-scroll-proportion="-4.6538463" vertical-offset="344" max-vertical-offset="2985">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/olingo.odata2.sample.cars.web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="585">
+              <caret line="15" column="92" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -143,9 +103,10 @@
       <file leaf-file-name="MyODataSingleProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1923075" vertical-offset="236" max-vertical-offset="1875">
-              <caret line="46" column="82" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="82" />
+            <state vertical-scroll-proportion="-2.8076923" vertical-offset="1337" max-vertical-offset="2430">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1538#1539#0" expanded="true" />
                 <element signature="e#1575#1576#0" expanded="true" />
               </folding>
@@ -153,71 +114,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FullQualifiedName.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/edm/FullQualifiedName.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="390">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EdmEntityContainerImplProv.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-core-incubating/1.0.0/olingo-odata2-core-incubating-1.0.0.jar!/org/apache/olingo/odata2/core/edm/provider/EdmEntityContainerImplProv.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.96" vertical-offset="146" max-vertical-offset="585">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UriParserImpl.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-core-incubating/1.0.0/olingo-odata2-core-incubating-1.0.0.jar!/org/apache/olingo/odata2/core/uri/UriParserImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.96" vertical-offset="911" max-vertical-offset="1350">
-              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DB.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.7727275" vertical-offset="887" max-vertical-offset="3480">
-              <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.33031675" vertical-offset="4637" max-vertical-offset="4890">
+              <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
               <folding>
-                <element signature="e#4138#4150#0" expanded="true" />
-                <element signature="e#4525#4535#0" expanded="true" />
-                <element signature="e#6592#6612#0" expanded="true" />
-                <element signature="e#7517#7530#0" expanded="true" />
-                <element signature="e#8696#8697#0" expanded="true" />
-                <element signature="e#8747#8748#0" expanded="true" />
-                <element signature="e#8847#8858#0" expanded="true" />
-                <element signature="e#9990#10006#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3937#3949#0" expanded="true" />
+                <element signature="e#4324#4334#0" expanded="true" />
+                <element signature="e#6390#6410#0" expanded="true" />
+                <element signature="e#7321#7334#0" expanded="true" />
+                <element signature="e#8500#8501#0" expanded="true" />
+                <element signature="e#8551#8552#0" expanded="true" />
+                <element signature="e#8651#8662#0" expanded="true" />
+                <element signature="e#9794#9810#0" expanded="true" />
+                <element signature="e#10709#10729#0" expanded="true" />
+                <element signature="e#11688#11704#0" expanded="true" />
+                <element signature="e#12558#12559#0" expanded="true" />
+                <element signature="e#12596#12597#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cars-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="735">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntitySet.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/edm/provider/EntitySet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.32" vertical-offset="62" max-vertical-offset="660">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -241,10 +157,10 @@
         <option value="$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java" />
         <option value="$PROJECT_DIR$/cars-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java" />
         <option value="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyServiceFactory.java" />
         <option value="$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB" />
         <option value="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java" />
+        <option value="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java" />
         <option value="$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java" />
       </list>
     </option>
@@ -257,9 +173,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="33" />
-    <option name="width" value="751" />
+    <option name="x" value="97" />
+    <option name="y" value="45" />
+    <option name="width" value="1126" />
     <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -316,6 +232,96 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="olingo.odata2.sample.cars.web" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olingo.odata2.sample.cars.web" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="olingo.odata2.sample.cars.web" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cars-web" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cars-web" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cars-service" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -339,6 +345,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,6 +379,26 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cars-web" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr-odata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cars-service" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,7 +638,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="33" width="751" height="760" extended-state="0" />
+    <frame x="97" y="45" width="1126" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -617,16 +647,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.58321273" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29294273" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19538188" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -651,7 +682,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java</url>
-          <line>78</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
@@ -663,63 +694,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>185</line>
+          <line>184</line>
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>189</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>248</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>236</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>228</line>
+          <line>227</line>
           <properties />
           <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java</url>
-          <line>249</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java</url>
-          <line>262</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java</url>
-          <line>219</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java</url>
-          <line>203</line>
-          <properties />
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/server/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB</url>
@@ -735,27 +718,51 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>209</line>
+          <line>208</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
-          <line>217</line>
+          <line>216</line>
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java</url>
-          <line>93</line>
+          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
+          <line>303</line>
           <properties />
-          <option name="timeStamp" value="64" />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
+          <line>300</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java</url>
+          <line>314</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="65" />
+      <option name="time" value="78" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -763,14 +770,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2573" max-vertical-offset="2985">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-core-incubating/1.0.0/olingo-odata2-core-incubating-1.0.0.jar!/org/apache/olingo/odata2/core/edm/provider/EdmImplProv.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.96" vertical-offset="41" max-vertical-offset="450">
@@ -783,14 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.76" vertical-offset="336" max-vertical-offset="735">
           <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="735">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -811,14 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/edm/provider/EntitySet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.32" vertical-offset="62" max-vertical-offset="660">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/edm/FullQualifiedName.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="390">
@@ -835,58 +818,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java">
+    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/Solr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.7727275" vertical-offset="887" max-vertical-offset="3480">
-          <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+        <state vertical-scroll-proportion="-3.8846154" vertical-offset="139" max-vertical-offset="2235">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olingo.odata2.sample.cars.web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="585">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/processor/ODataSingleProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20053476" vertical-offset="0" max-vertical-offset="1215">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/edm/provider/EntitySet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46524063" vertical-offset="261" max-vertical-offset="660">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.084833" vertical-offset="811" max-vertical-offset="1200">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3523316" vertical-offset="209" max-vertical-offset="645">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#4138#4150#0" expanded="true" />
-            <element signature="e#4525#4535#0" expanded="true" />
-            <element signature="e#6592#6612#0" expanded="true" />
-            <element signature="e#7517#7530#0" expanded="true" />
-            <element signature="e#8696#8697#0" expanded="true" />
-            <element signature="e#8747#8748#0" expanded="true" />
-            <element signature="e#8847#8858#0" expanded="true" />
-            <element signature="e#9990#10006#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#722#723#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java">
+    <entry file="file://$PROJECT_DIR$/cars-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1923075" vertical-offset="1286" max-vertical-offset="7200">
-          <caret line="124" column="48" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.2184466" vertical-offset="0" max-vertical-offset="735">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/cars-web/olingo.odata2.sample.cars.web (3).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37593985" vertical-offset="0" max-vertical-offset="615">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6538463" vertical-offset="344" max-vertical-offset="2985">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/olingo-odata2-api-incubating/1.0.0/olingo-odata2-api-incubating-1.0.0.jar!/org/apache/olingo/odata2/api/ep/EntityProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18891688" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyODataSingleProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1923075" vertical-offset="236" max-vertical-offset="1875">
-          <caret line="46" column="82" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="82" />
+        <state vertical-scroll-proportion="-2.8076923" vertical-offset="1337" max-vertical-offset="2430">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1538#1539#0" expanded="true" />
             <element signature="e#1575#1576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyServiceFactory.java">
+    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/MyEdmProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1923075" vertical-offset="251" max-vertical-offset="645">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="7" />
+        <state vertical-scroll-proportion="-3.0" vertical-offset="1377" max-vertical-offset="4290">
+          <caret line="97" column="38" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="38" />
           <folding>
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/Solr.java">
+    <entry file="file://$PROJECT_DIR$/cars-service/src/main/java/org/apache/olingo/odata2/sample/service/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33223686" vertical-offset="139" max-vertical-offset="2235">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="0.33031675" vertical-offset="4637" max-vertical-offset="4890">
+          <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3937#3949#0" expanded="true" />
+            <element signature="e#4324#4334#0" expanded="true" />
+            <element signature="e#6390#6410#0" expanded="true" />
+            <element signature="e#7321#7334#0" expanded="true" />
+            <element signature="e#8500#8501#0" expanded="true" />
+            <element signature="e#8551#8552#0" expanded="true" />
+            <element signature="e#8651#8662#0" expanded="true" />
+            <element signature="e#9794#9810#0" expanded="true" />
+            <element signature="e#10709#10729#0" expanded="true" />
+            <element signature="e#11688#11704#0" expanded="true" />
+            <element signature="e#12558#12559#0" expanded="true" />
+            <element signature="e#12596#12597#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

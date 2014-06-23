@@ -1,16 +1,9 @@
 package org.apache.olingo.odata2.sample.service;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
-import org.apache.olingo.odata2.api.edm.EdmConcurrencyMode;
-import org.apache.olingo.odata2.api.edm.EdmMultiplicity;
-import org.apache.olingo.odata2.api.edm.EdmSimpleTypeKind;
-import org.apache.olingo.odata2.api.edm.EdmTargetPath;
-import org.apache.olingo.odata2.api.edm.FullQualifiedName;
+import org.apache.olingo.odata2.api.edm.*;
 import org.apache.olingo.odata2.api.edm.provider.Association;
 import org.apache.olingo.odata2.api.edm.provider.AssociationEnd;
 import org.apache.olingo.odata2.api.edm.provider.AssociationSet;
@@ -33,16 +26,17 @@ import org.apache.olingo.odata2.api.edm.provider.ReturnType;
 import org.apache.olingo.odata2.api.edm.provider.Schema;
 import org.apache.olingo.odata2.api.edm.provider.SimpleProperty;
 import org.apache.olingo.odata2.api.exception.ODataException;
+import org.apache.olingo.odata2.api.uri.KeyPredicate;
 
 public class DB {
-    public static String NAMESPACE = "postgres";
+    public static String NAMESPACE = "tenant4";
 
     public static String tables =
             "select table_name \n" +
-                    "from information_schema.tables \n" +
-                    "where table_type  = 'BASE TABLE'\n" +
-                    "and table_schema = '" + NAMESPACE + "'\n" +
-                    ";";
+            "from information_schema.tables \n" +
+            "where table_type  = 'BASE TABLE'\n" +
+            "and table_schema = '" + NAMESPACE + "'\n" +
+            ";";
 
     public static String columns =
             "SELECT *\n" +
@@ -62,6 +56,11 @@ public class DB {
                     "    JOIN information_schema.constraint_column_usage AS ccu\n" +
                     "      ON ccu.constraint_name = tc.constraint_name\n" +
                     "WHERE constraint_type = 'FOREIGN KEY' AND tc.table_name='%tablename%';\n";
+
+    public static String load =
+            "SELECT *\n" +
+            "FROM " + NAMESPACE + ".%tablename%;\n";
+
 
     public static String TABLENAME = "%tablename%";
     private static Collection<? extends EntityType> _types;
@@ -112,7 +111,7 @@ public class DB {
                             new SimpleProperty()
                                     .setName(colName)
                                     .setType(EdmSimpleTypeKind.String)
-                                    .setFacets(new Facets().setNullable(false)));
+                                    .setFacets(new Facets().setNullable(true)));
                    /* properties.add(new SimpleProperty().setName("Model").setType(EdmSimpleTypeKind.String).setFacets(new Facets().setNullable(false).setMaxLength(100).setDefaultValue("Hugo"))
                             .setCustomizableFeedMappings(new CustomizableFeedMappings().setFcTargetPath(EdmTargetPath.SYNDICATION_TITLE)));
                     properties.add(new SimpleProperty().setName("ManufacturerId").setType(EdmSimpleTypeKind.Int32));
@@ -131,8 +130,8 @@ public class DB {
                 //Navigation Properties
                 List<NavigationProperty> navigationProperties = new ArrayList<NavigationProperty>();
 
-                ResultSet rsk = stmt.executeQuery(keys.replace(TABLENAME, name));
-                while (rsk.next()) {
+             //   ResultSet rsk = stmt.executeQuery(keys.replace(TABLENAME, name));
+            /*    while (rsk.next()) {
                     String constraintName = rsk.getString("constraint_name");
                     String colName = rsk.getString("column_name");
                     String foreignName = rsk.getString("foreign_table_name");
@@ -144,7 +143,7 @@ public class DB {
                             ).setFromRole(name).setToRole(foreignName));
                 }
 
-                rsk.close();
+                rsk.close();*/
 
                 //Key
                 List<PropertyRef> keyProperties = new ArrayList<PropertyRef>();
@@ -255,5 +254,68 @@ public class DB {
         }
 
         return null;
+    }
+
+    public static List<Map<String,Object>> all(String type, KeyPredicate keyPredicate) {
+        List<Map<String,Object>> results =
+            new ArrayList<Map<String,Object>>();
+
+        Statement stmt = null;
+        try {
+            Connection con = getConnection();
+
+            String sql = load.replace(TABLENAME, type);
+
+            // todo: sql injection
+            // todo: types
+            if (keyPredicate != null) {
+                sql = sql + " WHERE " +
+                        keyPredicate.getProperty().getName() +
+                        " = '" +
+                        // todo: escape for sql or use bind variables
+                        // todo: if you include version # you can cache stuff
+                        keyPredicate.getLiteral() + "'";
+            }
+            stmt = con.createStatement();
+            ResultSet rsc = stmt.executeQuery(sql);
+            while (rsc.next()) {
+                // todo: some caching
+                // todo: handle typing
+                int width = rsc.getMetaData().getColumnCount();
+                Map<String, Object> object =
+                        new HashMap<String, Object>();
+
+                for (int i = 1; i <= width; i++) {
+                    object.put(
+                        rsc.getMetaData().getColumnName(i),
+                        rsc.getString(i)
+                    );
+                }
+
+                results.add(object);
+            }
+
+            rsc.close();
+
+        } catch (SQLException e ) {
+            System.out.println(e.getMessage());
+            // JDBCTutorialUtilities.printSQLException(e);
+        } catch (EdmException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+
+        return results;
+    }
+
+    public static List<Map<String, Object>> all(String type) {
+        return all(type, null);
     }
 }
