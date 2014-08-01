@@ -48,7 +48,7 @@ public class MyODataSingleProcessor extends ODataSingleProcessor {
 	      } else {
               return EntityProvider.writeFeed(contentType,
                       entitySet,
-                      DB.all(entitySet.getName()),
+                      DB.all(entitySet.getName(), null),
                       EntityProviderWriteProperties.serviceRoot(getContext().getPathInfo().getServiceRoot()).build());
           }
 	
@@ -117,8 +117,16 @@ public class MyODataSingleProcessor extends ODataSingleProcessor {
 	          return EntityProvider.writeEntry(contentType, entitySet, data, propertiesBuilder.build());
 	        }
 	      }
-	
-	      throw new ODataNotFoundException(ODataNotFoundException.ENTITY);
+
+          String id = getKeyValue(uriInfo.getKeyPredicates().get(0));
+            URI serviceRoot = getContext().getPathInfo().getServiceRoot();
+
+            ODataEntityProviderPropertiesBuilder propertiesBuilder = EntityProviderWriteProperties.serviceRoot(serviceRoot);
+
+            Map<String, Object> data = new DB().id(entitySet.getName(), id);
+          return EntityProvider.writeEntry(contentType, entitySet, data, propertiesBuilder.build());
+
+	    //  throw new ODataNotFoundException(ODataNotFoundException.ENTITY);
 	
 	    } else if (uriInfo.getNavigationSegments().size() == 1) {
 	      //navigation first level, simplified example for illustration purposes only

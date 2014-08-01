@@ -59,7 +59,7 @@ public class DB {
 
     public static String load =
             "SELECT *\n" +
-            "FROM " + NAMESPACE + ".%tablename%;\n";
+            "FROM " + NAMESPACE + ".%tablename%\n";
 
 
     public static String TABLENAME = "%tablename%";
@@ -258,7 +258,7 @@ public class DB {
 
     public static List<Map<String,Object>> all(String type, KeyPredicate keyPredicate) {
         List<Map<String,Object>> results =
-            new ArrayList<Map<String,Object>>();
+                new ArrayList<Map<String,Object>>();
 
         Statement stmt = null;
         try {
@@ -287,8 +287,8 @@ public class DB {
 
                 for (int i = 1; i <= width; i++) {
                     object.put(
-                        rsc.getMetaData().getColumnName(i),
-                        rsc.getString(i)
+                            rsc.getMetaData().getColumnName(i),
+                            rsc.getString(i)
                     );
                 }
 
@@ -315,7 +315,56 @@ public class DB {
         return results;
     }
 
-    public static List<Map<String, Object>> all(String type) {
-        return all(type, null);
+    public static Map<String,Object> id(final String type, final String id) {
+        Map<String,Object> results =
+                new HashMap<String,Object>();
+
+        Statement stmt = null;
+        try {
+            Connection con = getConnection();
+
+            String sql = load.replace(TABLENAME, type);
+
+            // todo: sql injection
+            // todo: types
+
+                sql = sql + " WHERE " +
+                        "i_id" +
+                        " = '" +
+                        // todo: escape for sql or use bind variables
+                        // todo: if you include version # you can cache stuff
+                        id + "'";
+            stmt = con.createStatement();
+            ResultSet rsc = stmt.executeQuery(sql);
+            while (rsc.next()) {
+                // todo: some caching
+                // todo: handle typing
+                int width = rsc.getMetaData().getColumnCount();
+                for (int i = 1; i <= width; i++) {
+                    String column = rsc.getString(i);
+                    results.put(
+                            rsc.getMetaData().getColumnName(i),
+                            column
+                    );
+                }
+            }
+
+            rsc.close();
+
+        } catch (SQLException e ) {
+            System.out.println(e.getMessage());
+            // JDBCTutorialUtilities.printSQLException(e);
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+
+        return results;
     }
+
 }
